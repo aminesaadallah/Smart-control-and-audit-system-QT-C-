@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Rapportform</class>
+ <widget class="QDialog" name="Rapportform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>995</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>161</width>
+     <height>995</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 170, 255, 255), stop:1 rgba(255, 255, 255, 255));
+border-top-right-radius: 50px;
+color: white;
+font: 75 20pt &quot;Berlin Sans FB&quot;;</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 255);
+border-radius: 10px;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Auditeur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 255);
+border-radius: 10px;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Client</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>190</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 255);
+border-radius: 10px;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Rapport</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 255);
+border-radius: 10px;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Materielle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>270</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 255);
+border-radius: 10px;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Norme</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 170, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>1820</x>
+      <y>0</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/logo.jpg);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>89</y>
+     <width>1759</width>
+     <height>904</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="countButton">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>556</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>count</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>286</y>
+      <width>541</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="pushButton_rechercher_2">
+       <property name="text">
+        <string>rechercher</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_idRS_2"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_supprimer_2">
+       <property name="text">
+        <string>supprimer</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableView" name="tableView_afficher">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>316</y>
+      <width>931</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>164</y>
+      <width>86</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>datedecreation</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_datemodi">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>220</y>
+      <width>137</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_pdf">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>36</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>exporter</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_titre">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>136</y>
+      <width>137</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>192</y>
+      <width>93</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>typeequipement</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_id">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>108</y>
+      <width>137</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_mataud">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>276</y>
+      <width>137</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_datecre">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>164</y>
+      <width>137</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="id_count">
+    <property name="geometry">
+     <rect>
+      <x>-25</x>
+      <y>556</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_languetrad">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>248</y>
+      <width>137</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>596</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_trier">
+    <property name="geometry">
+     <rect>
+      <x>905</x>
+      <y>626</y>
+      <width>221</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>trier</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>248</y>
+      <width>97</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>languetraduction</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>36</y>
+      <width>801</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_chart_2"/>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>276</y>
+      <width>92</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>idmaterielaudite</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_detect">
+    <property name="geometry">
+     <rect>
+      <x>345</x>
+      <y>196</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>detect</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_count">
+    <property name="geometry">
+     <rect>
+      <x>85</x>
+      <y>556</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_typeequi">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>192</y>
+      <width>137</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>108</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>136</y>
+      <width>28</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>titre </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>99</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>datemodification </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_modifier_2">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
+      <y>346</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>modifier</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ajouter_2">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
+      <y>389</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ajouter</string>
+    </property>
+   </widget>
+  </widget>
+  <zorder>frame_2</zorder>
+  <zorder>widget</zorder>
+  <zorder>frame</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
